@@ -24,7 +24,7 @@
 
 ### Задание 1
 
-1. `Аккаунт на GitHub зарегистрирован`  ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-1.png)
+1. `Аккаунт на GitHub зарегистрирован`  ![скрин](img/1-1.png)
 2. `Публичный репозиторий создан` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-2.png)
    * Галочка в поле «Initialize this repository with a README» проставлена. 
 3. `Склонирую репозиторий используя SSH ключ`
