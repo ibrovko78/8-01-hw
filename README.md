@@ -25,23 +25,23 @@
 ### Задание 1
 
 1. `Аккаунт на GitHub зарегистрирован`  ![скрин](img/1-1.png)
-2. `Публичный репозиторий создан` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-2.png)
+2. `Публичный репозиторий создан` ![скрин](img/1-2.png)
    * Галочка в поле «Initialize this repository with a README» проставлена. 
 3. `Склонирую репозиторий используя SSH ключ`
    * Добавляю ключ в github 
-   * Выполняю git clone git@github.com:ibrovko78/ibrovko.git  ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-3.png)
-4. `Перехожу в каталог с клоном репозитория.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-4.png)
-5. `Произвожу первоначальную настройку Git` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-5.png)
+   * Выполняю git clone git@github.com:ibrovko78/ibrovko.git  ![скрин](img/1-3.png)
+4. `Перехожу в каталог с клоном репозитория.` ![скрин](img/1-4.png)
+5. `Произвожу первоначальную настройку Git` ![скрин](img/1-5.png)
    * git config --global user.name ibrovko78
    * git config --global user.email i.brovko@internet.ru
-6. `Выполняю команду git status и запомниаю результат` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-6.png)
-7. `Редактирую файл README.md при помощи nano, файл в состоянии Modified.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-7.png)
-8. `Ещё раз выполняю git status и продолжу проверять вывод этой команды после каждого следующего шага.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-8.png)
-9. `Смотрю изменения в файле README.md, выполняю команды git diff и git diff --staged.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-9.png)
-10. `Перевожу файл в состояние staged, добавляю файл в коммит, командой git add README.md.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-10.png)
-11. `Ещё раз выполню команды git diff и git diff --staged.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-11.png)
-12. `Сделаю коммит git commit -m 'First commit'.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-12.png)
-13. `Делаю git push origin .` ![скрин1](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-13.png) ![скрин2](https://github.com/ibrovko78/8-01-hw/tree/main/img/1-13.1.png)
+6. `Выполняю команду git status и запомниаю результат` ![скрин](img/1-6.png)
+7. `Редактирую файл README.md при помощи nano, файл в состоянии Modified.` ![скрин](img/1-7.png)
+8. `Ещё раз выполняю git status и продолжу проверять вывод этой команды после каждого следующего шага.` ![скрин](img/1-8.png)
+9. `Смотрю изменения в файле README.md, выполняю команды git diff и git diff --staged.` ![скрин](img/1-9.png)
+10. `Перевожу файл в состояние staged, добавляю файл в коммит, командой git add README.md.` ![скрин](img/1-10.png)
+11. `Ещё раз выполню команды git diff и git diff --staged.` ![скрин](img/1-11.png)
+12. `Сделаю коммит git commit -m 'First commit'.` ![скрин](img/1-12.png)
+13. `Делаю git push origin .` ![скрин1](img/1-13.png) ![скрин2](img/1-13.1.png)
 
 ![ссылка на коммит First commit](https://github.com/ibrovko78/ibrovko/commit/4a54b5e302f4de6f9971b75aa31c43a12fceddfa)
 
@@ -49,10 +49,10 @@
 
 ### Задание 2
 
-1. `Создаю файл .gitignore, проверяю его статус сразу после создания.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/2-1.png)
-2. `Добавляю файл .gitignore в коммит git add .gitignore` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/2-2.png)
-3. `Добавляю правила в файл .gitignore, чтобы игнорировать любые файлы .pyc, а также все файлы в директории cache.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/2-3.png)
-4. `Делаю комит и пуш` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/2-4.png)
+1. `Создаю файл .gitignore, проверяю его статус сразу после создания.` ![скрин](img/2-1.png)
+2. `Добавляю файл .gitignore в коммит git add .gitignore` ![скрин](img/2-2.png)
+3. `Добавляю правила в файл .gitignore, чтобы игнорировать любые файлы .pyc, а также все файлы в директории cache.` ![скрин](img/2-3.png)
+4. `Делаю комит и пуш` ![скрин](img/2-4.png)
    * git commit -m 'Second commit'
    * git push origin
 
@@ -62,11 +62,11 @@
 
 ### Задание 3
 
-1. `Создаю новую ветку dev и сразу переключаюсь на неё. git checkout -b dev` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/3-1.png)
-2. `Создаю файл test.sh с произвольным содержимым.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/3-2.png)
-3. `Сделаю несколько коммитов и пушей, имитируя активную работу над файлом test.sh.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/3-3.png)
-4. `Сделайте мердж этой ветки в основную. Сначала нужно переключиться на неё, а потом вызывать git merge.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/3-4.png)
-5. `Сделайте коммит и пуш.` ![скрин](https://github.com/ibrovko78/8-01-hw/tree/main/img/3-5.png)
+1. `Создаю новую ветку dev и сразу переключаюсь на неё. git checkout -b dev` ![img/3-1.png)
+2. `Создаю файл test.sh с произвольным содержимым.` ![скрин](img/3-2.png)
+3. `Сделаю несколько коммитов и пушей, имитируя активную работу над файлом test.sh.` ![скрин](img/3-3.png)
+4. `Сделайте мердж этой ветки в основную. Сначала нужно переключиться на неё, а потом вызывать git merge.` ![скрин](img/3-4.png)
+5. `Сделайте коммит и пуш.` ![скрин](img/3-5.png)
 
 
 ![ссылка на граф коммитов](https://github.com/ibrovko78/ibrovko/network)
